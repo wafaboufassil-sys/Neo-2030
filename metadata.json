@@ -1,0 +1,8 @@
+{
+  "name": "براند 2030 | Brand 2030",
+  "description": "منصة أزياء مستقبلية تجمع بين الأناقة والابتكار التكنولوجي لعام 2030، بتصاميم عصرية وتجربة تسوق رائدة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
