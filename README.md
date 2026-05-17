@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/7628bfd2-40e3-436d-be84-db9e19bfa447
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+هذا المشروع هو عبارة عن منصة أزياء مستقبلية (NEO-2030) تجسد رؤية الملابس العصرية في عام 2030. تم تصميم التطبيق ليكون تجربة بصرية غامرة تجمع بين الأناقة الرقمية والتكنولوجيا المتقدمة.
+إليك وصف تفصيلي للمشروع:
+الهوية البصرية (Dark Mode & Cyberpunk):
+يعتمد التطبيق على النظام المظلم (Dark Mode) العميق مع تدرجات لونية بين الأزرق السماوي (Cyan) والأرجواني (Purple).
+استخدام خطوط عصرية جريئة (Space Grotesk) وخطوط عربية متناسقة (Noto Sans Arabic) لإعطاء طابع تكنولوجي.
+تصميم "الفروستد جلاس" (Frosted Glass):
+واجهة المستخدم تعتمد أسلوب Glassmorphism، حيث تظهر القوائم والبطاقات كزجاج مصقول شبه شفاف يتفاعل مع الخلفية، مما يعطي إحساساً بالعمق والفخامة.
+الأنيميشن والثلاثي الأبعاد (3D Animation):
+خلفية 3D حية: تم دمج كرة تجريدية (Abstract Sphere) تتحرك وتتشكل باستمرار باستخدام تقنيات Three.js و React Three Fiber، مما يضيف حياة وحركة للموقع.
+حركات Fluid: استخدام مكتبة Framer Motion لإضافة تأثيرات ظهور تدريجي (Fade-in) وحركات بارالاكس (Parallax) مذهلة أثناء التمرير.
+صور احترافية بالذكاء الاصطناعي:
+يحتوي الموقع على صور عالية الجودة تم إنشاؤها خصيصاً لتمثيل "ستريت وير" (Streetwear) مستقبلي، بما في ذلك سترة ذكية، حذاء تقني، ونظارات واقع معزز.
+أقسام الموقع:
+Hero Section: واجهة ترحيبية قوية مع أزرار ذات تصميم مائل (Skewed) فريد.
+Features Grid: عرض لمميزات العلامة مثل الاستدامة الحيوية، المسح الضوئي بالذكاء الاصطناعي، والطباعة ثلاثية الأبعاد.
+Product Gallery: معرض المنتجات ببطاقات تفاعلية تبرز تفاصيل السعر والفئة بأسلوب تقني.
+التكنولوجيا المستخدمة:
+React 18 لبناء الواجهات.
+Tailwind CSS 4 للتنسيق المتقدم.
+Three.js للعناصر ثلاثية الأبعاد.
+Framer Motion للأنيميشن الاحترافي.
+باختصار، هذا التطبيق ليس مجرد متجر للملابس، بل هو نافذة رقمية على مستقبل الموضة.
